@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 
 import heroPhone from "../herophone.png";
+import image from "../image.png"
 
 const fade = {
   hidden: { opacity: 0, y: 40 },
@@ -77,7 +78,7 @@ const handleSubmit = async (
 
           <Link href="/">
             <Image
-              src="/icon.png"
+              src={image}
               alt="helloNova"
               width={220}
               height={90}

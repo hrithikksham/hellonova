@@ -63,13 +63,13 @@ export const metadata: Metadata = {
     siteName: "helloNova",
 
     images: [
-      {
-        url: "/image.png",
-        width: 1200,
-        height: 630,
-        alt: "helloNova",
-      },
-    ],
+  {
+    url: "/images/image.png",
+    width: 1200,
+    height: 630,
+    alt: "helloNova",
+  },
+  ],
   },
 
   twitter: {
@@ -78,14 +78,14 @@ export const metadata: Metadata = {
     description:
       "AI phone assistant that answers your calls and summarizes conversations.",
 
-    images: ["/image.png"],
+    images: ["/icon.png"],
   },
 
-  icons: {
-    icon: "/image.png",
-    shortcut: "/favicon.ico",
-    apple: "/image.png",
-  },
+    icons: {
+  icon: "/images/favicon.ico",
+  shortcut: "/images/favicon.ico",
+  apple: "/images/apple-icon.png",
+},
 
   manifest: "/manifest.webmanifest",
 

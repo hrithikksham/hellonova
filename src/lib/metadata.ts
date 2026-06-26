@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       "Answer calls intelligently. Filter spam automatically. Never miss what matters.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/image.png",
         width: 1200,
         height: 630,
         alt: "helloNova",
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/image.png" },
-      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.ico", type: "image/png" },
     ],
     apple: "/image.png",
     shortcut: "/favicon.ico",
