@@ -5,13 +5,16 @@ import { ArrowRight } from "lucide-react";
 
 export default function Survey() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#F8FBFF] via-[#F2F8FF] to-white">
+    <main className="relative min-h-screen overflow-hidden bg-[#FFFFFF]">
 
-      {/* Ambient light */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-0 h-[520px] w-[720px] -translate-x-1/2 rounded-full bg-sky-300/20 blur-[160px]" />
-        <div className="absolute bottom-0 left-1/2 h-[360px] w-[600px] -translate-x-1/2 rounded-full bg-blue-100/40 blur-[140px]" />
-      </div>
+  <div className="pointer-events-none absolute inset-0">
+
+    <div className="absolute left-1/2 top-[-0px] h-[100px] w-[900px] -translate-x-1/2 rounded-full bg-sky-300/15 blur-[220px]" />
+
+    <div className="absolute right-[-120px] top-1/3 h-[200px] w-[500px] rounded-full bg-blue-200/20 blur-[180px]" />
+
+    <div className="absolute left-[-120px] bottom-0 h-[100px] w-[500px] rounded-full bg-cyan-200/20 blur-[180px]" />
+</div>
 
       <section className="relative mx-auto flex min-h-screen max-w-2xl flex-col items-center justify-center px-6 text-center">
 

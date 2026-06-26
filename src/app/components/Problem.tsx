@@ -57,13 +57,7 @@ const CURVE =
 /* ─── section ────────────────────────────────────────────── */
 export default function Problem() {
   return (
-    <section className="relative overflow-hidden bg-[#F8FBFF] py-28 lg:py-40">
-
-      {/* Ambient blobs */}
-      <div aria-hidden className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-0 h-[640px] w-[720px] -translate-x-1/2 rounded-full bg-sky-200/20 blur-[150px]" />
-        <div className="absolute bottom-0 right-0 h-[420px] w-[420px] rounded-full bg-blue-200/15 blur-[130px]" />
-      </div>
+    <section className="relative overflow-hidden bg-[#FFFFFF] py-28 lg:py-40">
 
       <div className="relative mx-auto max-w-5xl px-6">
 

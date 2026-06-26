@@ -8,18 +8,18 @@ import Hudo from "../hudo.png";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-white pt-20 sm:pt-24 lg:pt-32">
+    <footer className="relative overflow-hidden bg-white pt-20 sm:pt-22 lg:pt-28">
 
 {/* Background Glow */}
 
-<div className="absolute bottom-[-120px] left-1/2 h-[400px] w-[1000px] -translate-x-1/2 rounded-full bg-sky-300/100 blur-[180px]" />
+<div className="absolute bottom-[-10px] left-1/2 h-[300px] w-[1000px] -translate-x-1/2 rounded-full bg-sky-300/100 blur-[180px]" />
 
 <div className="relative z-10 mx-auto max-w-7xl px-6">
 
 
         {/* Footer */}
 
-        <div className="mt-20 flex flex-col items-center gap-8 border-t border-slate-200 py-8 lg:mt-24 lg:flex-row lg:justify-between">
+        <div className="mt-20 flex flex-col items-center gap-8  py-8 lg:mt-24 lg:flex-row lg:justify-between">
 
           {/* Logo */}
 
@@ -28,9 +28,9 @@ export default function Footer() {
             <Image
               src={Hudo}
               alt="HUDO"
-              width={60}
-              height={60}
-              className="h-auto w-12 sm:w-14"
+              width={80}
+              height={100}
+              className="h-auto w-18 sm:w-24"
               priority
             />
 
@@ -41,17 +41,10 @@ export default function Footer() {
           <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-slate-600">
 
             <Link
-              href="/"
+              href=""
               className="transition-colors hover:text-black"
             >
-              Features
-            </Link>
-
-            <Link
-              href="/"
-              className="transition-colors hover:text-black"
-            >
-              FAQ
+              Home
             </Link>
 
             <Link
@@ -62,7 +55,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="/"
+              href="hellonova@hudo.co.in"
               className="transition-colors hover:text-black"
             >
               Contact
@@ -95,11 +88,11 @@ export default function Footer() {
             leading-none
             tracking-[-0.08em]
             text-black
-            text-[32vw]
-            sm:text-[28vw]
-            md:text-[24vw]
-            lg:text-[22vw]
-            xl:text-[20vw]
+            text-[23vw]
+            sm:text-[10vw]
+            md:text-[10vw]
+            lg:text-[10vw]
+            xl:text-[10vw]
           "
         >
           helloNova
