@@ -12,7 +12,7 @@ export default function Footer() {
 
 {/* Background Glow */}
 
-<div className="absolute bottom-[-120px] left-1/2 h-[420px] w-[1000px] -translate-x-1/2 rounded-full bg-sky-300/100 blur-[180px]" />
+<div className="absolute bottom-[-120px] left-1/2 h-[400px] w-[1000px] -translate-x-1/2 rounded-full bg-sky-300/100 blur-[180px]" />
 
 <div className="relative z-10 mx-auto max-w-7xl px-6">
 

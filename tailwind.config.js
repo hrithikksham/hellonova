@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
-        canela: ["Canela", "serif"],
+        canela: ["Canela", "Georgia", "serif"],
+
       },
 
       colors: {

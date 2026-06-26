@@ -171,8 +171,6 @@ to answer a few questions?
 
 <br><br>
 
-Your feedback will help us prioritize the features that matter most before launch.
-
 </p>
 
 <div style="height:36px"></div>
@@ -235,18 +233,6 @@ color:#94A3B8;
 ">
 
 HUDO
-
-</div>
-
-<div style="height:12px"></div>
-
-<div
-style="
-font-size:13px;
-color:#94A3B8;
-">
-
-Built with care in India.
 
 </div>
 

@@ -1,4 +1,3 @@
-
 "use client";
 
 import { motion } from "framer-motion";
@@ -6,129 +5,57 @@ import { ArrowRight } from "lucide-react";
 
 export default function Survey() {
   return (
-    <main className="relative overflow-hidden bg-gradient-to-b from-white via-sky-50/40 to-white">
+    <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#F8FBFF] via-[#F2F8FF] to-white">
 
-      {/* Background */}
-
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute left-1/2 top-0 h-[550px] w-[550px] -translate-x-1/2 rounded-full bg-sky-300/20 blur-[140px]" />
-
-        <div className="absolute bottom-0 left-1/2 h-[350px] w-[900px] -translate-x-1/2 rounded-full bg-sky-200/20 blur-[150px]" />
+      {/* Ambient light */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute left-1/2 top-0 h-[520px] w-[720px] -translate-x-1/2 rounded-full bg-sky-300/20 blur-[160px]" />
+        <div className="absolute bottom-0 left-1/2 h-[360px] w-[600px] -translate-x-1/2 rounded-full bg-blue-100/40 blur-[140px]" />
       </div>
 
-      <section className="mx-auto flex min-h-[70vh] max-w-5xl flex-col items-center justify-center px-6 py-20 text-center">
+      <section className="relative mx-auto flex min-h-screen max-w-2xl flex-col items-center justify-center px-6 text-center">
 
         <motion.div
-          initial={{ opacity: 0, y: 25 }}
+          initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.6, ease: [0.0, 0.0, 0.2, 1] }}
+          className="flex flex-col items-center"
         >
 
-          <h1 className="text-5xl font-bold tracking-tight text-slate-900 md:text-7xl">
-            Help build helloNova.
+          {/* Pill badge */}
+          <span className="mb-8 inline-flex rounded-full border border-sky-200 bg-white px-4 py-1.5 text-[11px] font-medium tracking-[0.14em] uppercase text-sky-700 shadow-sm">
+            2 minutes
+          </span>
+
+          {/* Canela headline */}
+          <h1 className="font-canela italic text-slate-900 leading-[1.02] tracking-[-0.03em] text-[52px] md:text-[80px]">
+            Help build<br />helloNova.
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            Great products begin with great conversations.
-            We would love yours.
+          {/* Sub */}
+          <p className="mt-5 max-w-[300px] text-[15px] leading-relaxed text-slate-500">
+            Your feedback shapes our first release.
           </p>
 
-          {/* Curved Divider */}
-
-          <div className="my-14 flex justify-center">
-
-            <svg
-              width="360"
-              height="70"
-              viewBox="0 0 360 70"
-              fill="none"
-              className="overflow-visible"
-            >
-
-              <defs>
-
-                <linearGradient
-                  id="curveGradient"
-                  x1="0"
-                  y1="0"
-                  x2="360"
-                  y2="0"
-                >
-                  <stop offset="0%" stopColor="#BAE6FD" />
-                  <stop offset="50%" stopColor="#0EA5E9" />
-                  <stop offset="100%" stopColor="#BAE6FD" />
-                </linearGradient>
-
-              </defs>
-
-              <path
-                d="M20 35 C90 5,270 5,340 35"
-                stroke="url(#curveGradient)"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                opacity="0.8"
-              />
-
-            </svg>
-
-          </div>
-
           {/* CTA */}
-
           <motion.a
             href="https://commit-survey-app.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ y: -3 }}
-            whileTap={{ scale: 0.98 }}
-            className="
-              group
-              mx-auto
-              inline-flex
-              items-center
-              justify-between
-              gap-10
-              rounded-full
-              bg-black
-              px-7
-              py-3
-              text-white
-              shadow-[0_20px_60px_rgba(0,0,0,0.20)]
-              transition-all
-              duration-300
-              hover:shadow-[0_30px_80px_rgba(0,0,0,0.28)]
-            "
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.97 }}
+            className="group mt-12 inline-flex items-center gap-4 rounded-full bg-white px-5 py-2.5 shadow-[0_20px_60px_rgba(0,0,0,0.14)] transition-all duration-300 hover:shadow-[0_28px_80px_rgba(0,0,0,0.20)]"
           >
-
-            <span className="text-lg text-white font-medium">
-              Share Feedback
+            <span className="pl-2 text-[15px] font-medium text-slate-900">
+              Share feedback
             </span>
-
-            <span
-              className="
-                flex
-                h-12
-                w-12
-                items-center
-                justify-center
-                rounded-full
-                bg-sky-500
-                transition-all
-                duration-300
-                group-hover:translate-x-1
-                group-hover:scale-105
-              "
-            >
-              <ArrowRight
-                size={20}
-                className="text-white"
-              />
+            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-sky-500 transition-all duration-300 group-hover:translate-x-0.5 group-hover:scale-105">
+              <ArrowRight size={16} className="text-white" />
             </span>
-
           </motion.a>
 
-          <p className="mt-8 text-sm text-slate-400">
-            ~2 minutes • Early access • Shapes our first release
+          <p className="mt-6 text-[12px] tracking-wide text-white/35">
+            Early access · Guaranteed
           </p>
 
         </motion.div>
