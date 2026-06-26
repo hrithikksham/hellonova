@@ -50,12 +50,6 @@ const handleSubmit = async (
     setJoined(true);
     setEmail("");
 
-    setTimeout(() => {
-      window.open(
-        "https://commit-survey-app.vercel.app/",
-        "_blank"
-      );
-    }, 1800);
 
   } catch (err) {
     console.error(err);
