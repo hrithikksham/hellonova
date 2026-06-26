@@ -1,0 +1,247 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to helloNova</mj-title>
+
+    <mj-preview>
+      Welcome to helloNova. You're officially on the early access list.
+    </mj-preview>
+
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+
+    <mj-attributes>
+      <mj-all font-family="Inter, Helvetica, Arial, sans-serif" />
+
+      <mj-text
+        color="#111827"
+        font-size="16px"
+        line-height="28px"
+      />
+
+      <mj-button
+        background-color="#111827"
+        color="#ffffff"
+        border-radius="999px"
+        font-size="16px"
+        font-weight="600"
+        inner-padding="16px 34px"
+      />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#F6FBFF">
+
+    <!-- HERO -->
+
+    <mj-section
+      background-color="#53AEFF"
+      padding="72px 40px 64px"
+    >
+
+      <mj-column>
+
+        <mj-image
+          width="230px"
+          src="https://hudo.co.in/icon.png"
+        />
+
+        <mj-text
+          align="center"
+          font-size="44px"
+          font-weight="800"
+          color="#ffffff"
+          padding-top="28px"
+        >
+          Welcome 
+        </mj-text>
+
+        <mj-text
+          align="center"
+          color="#F4FAFF"
+          font-size="20px"
+          line-height="32px"
+        >
+          You're officially on the Early Access list.
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+    <!-- BODY -->
+
+    <mj-section
+      background-color="#ffffff"
+      padding="56px 50px 20px"
+    >
+
+      <mj-column>
+
+        <mj-text
+          font-size="34px"
+          font-weight="700"
+        >
+          You're one of the first.
+        </mj-text>
+
+        <mj-text
+          color="#64748B"
+          font-size="18px"
+          line-height="32px"
+        >
+          helloNova is building an AI Call Assistant that answers
+          calls, filters spam automatically and keeps you focused
+          without missing what truly matters.
+
+          <br /><br />
+
+          Before we launch, we'd love your input.
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+    <!-- SURVEY CARD -->
+
+    <mj-section
+      background-color="#ffffff"
+      padding="16px 50px"
+    >
+
+      <mj-column
+        background-color="#F8FCFF"
+        border="1px solid #D9EEFF"
+        border-radius="24px"
+        padding="34px"
+      >
+
+        <mj-text
+          color="#0EA5E9"
+          font-size="13px"
+          font-weight="700"
+          letter-spacing="2px"
+          text-transform="uppercase"
+        >
+          Early Access
+        </mj-text>
+
+        <mj-text
+          font-size="30px"
+          font-weight="700"
+          padding-top="10px"
+        >
+          Help build helloNova.
+        </mj-text>
+
+        <mj-text
+          color="#64748B"
+          font-size="16px"
+          line-height="28px"
+          padding-top="10px"
+        >
+          Your feedback will directly influence what ships in
+          the very first version.
+
+          <br /><br />
+
+          It only takes two minutes.
+        </mj-text>
+
+        <mj-button
+          href="https://commit-survey-app.vercel.app/"
+          padding-top="26px"
+        >
+          Help Build helloNova →
+        </mj-button>
+
+      </mj-column>
+
+    </mj-section>
+
+    <!-- WHAT'S NEXT -->
+
+    <mj-section
+      background-color="#ffffff"
+      padding="42px 50px 8px"
+    >
+
+      <mj-column>
+
+        <mj-text
+          font-size="22px"
+          font-weight="700"
+        >
+          What happens next?
+        </mj-text>
+
+        <mj-text
+          color="#64748B"
+          font-size="16px"
+          line-height="30px"
+        >
+          ✓ Share your feedback
+
+          <br />
+
+          ✓ Watch helloNova evolve
+
+          <br />
+
+          ✓ Receive your private beta invitation
+
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+    <!-- FOOTER -->
+
+    <mj-section
+      background-color="#ffffff"
+      padding="10px 50px 54px"
+    >
+
+      <mj-column>
+
+        <mj-divider border-color="#E5E7EB" />
+
+        <mj-text
+          align="center"
+          color="#94A3B8"
+          font-size="14px"
+          line-height="24px"
+        >
+          You're receiving this email because you joined the
+          helloNova Early Access List.
+
+          <br /><br />
+
+          © 2026 HUDO Technologies
+
+          <br />
+
+
+          <br /><br />
+
+          <a
+            href="{unsubscribe_link}"
+            style="
+              color:#94A3B8;
+              text-decoration:underline;
+            "
+          >
+            Unsubscribe
+          </a>
+
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+  </mj-body>
+</mjml>
