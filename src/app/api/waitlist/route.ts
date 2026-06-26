@@ -211,20 +211,6 @@ Take the Survey →
 
 </table>
 
-<div style="height:44px"></div>
-
-<p
-style="
-margin:0;
-font-size:18px;
-color:#64748B;
-">
-
-Every response helps shape the future of helloNova.
-
-</p>
-
-
 </td>
 
 </tr>
