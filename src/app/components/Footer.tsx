@@ -95,7 +95,7 @@ export default function Footer() {
             xl:text-[10vw]
           "
         >
-          HELLONOVA
+          helloNova
         </h1>
 
       </div>
