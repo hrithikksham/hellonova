@@ -66,7 +66,7 @@ export default function Footer() {
           {/* Copyright */}
 
           <p className="text-center text-sm text-slate-500">
-            © 2026 HUDO.CO.IN. All rights reserved.
+            © 2026 HUDO.CO.IN.
             <br className="sm:hidden" />
             {" "}All rights reserved.
           </p>
