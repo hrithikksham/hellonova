@@ -1,36 +1,272 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="./public/images/image.png" width="120" alt="helloNova"/>
 
-First, run the development server:
+# helloNova
+
+### Your AI Phone Assistant.
+
+Answer calls intelligently. Filter spam. Understand conversations.
+Never miss what matters.
+
+<p align="center">
+  <a href="https://hudo.co.in">
+    <img src="https://img.shields.io/badge/Website-hudo.co.in-2563EB?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/badge/Status-Building-0EA5E9?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Made%20with-Next.js-black?style=for-the-badge">
+</p>
+
+</div>
+
+---
+
+## Overview
+
+helloNova is an AI-powered phone assistant that answers incoming calls on your behalf, understands conversations in real time, filters spam, summarizes important discussions, and remembers what matters.
+
+Instead of interrupting your day, helloNova decides whether a call deserves your attention.
+
+---
+
+## Preview
+
+<p align="center">
+<img src="./public/images/image.png" width="900"/>
+</p>
+
+---
+
+# Why helloNova?
+
+Today's phones demand attention.
+
+- Unknown callers
+- Spam calls
+- Missed opportunities
+- Endless interruptions
+
+helloNova changes that.
+
+It listens first.
+
+You decide later.
+
+---
+
+# Features
+
+### AI Call Answering
+
+Natural human-like conversations with callers.
+
+---
+
+### Spam Detection
+
+Automatically filters unwanted callers before they waste your time.
+
+---
+
+### Live Call Understanding
+
+Real-time speech recognition and AI reasoning.
+
+---
+
+### Smart Memory
+
+Remembers previous conversations and caller context.
+
+---
+
+### AI Call Summary
+
+Receive concise summaries after every call.
+
+---
+
+### Privacy First
+
+Your conversations remain secure and encrypted.
+
+---
+
+# Tech Stack
+
+| Frontend | Backend | AI | Infrastructure |
+|-----------|----------|----|---------------|
+| Next.js 16 | Node.js | Claude / GPT | AWS |
+| React | Express | Deepgram | Redis |
+| Tailwind CSS | PostgreSQL | Cartesia | Qdrant |
+| Framer Motion | WebSockets | Embeddings | Docker |
+
+---
+
+# Architecture
+
+```text
+Caller
+
+     │
+
+Twilio Voice
+
+     │
+
+Voice Pipeline
+
+     │
+
+Speech → LLM → Speech
+
+     │
+
+Context Builder
+
+     │
+
+Memory Engine
+
+     │
+
+Automation Engine
+
+     │
+
+Summary
+```
+
+---
+
+# Product Vision
+
+helloNova isn't another voice assistant.
+
+It becomes your communication layer.
+
+Instead of answering every phone call,
+you simply receive the important ones.
+
+---
+
+# Project Structure
+
+```
+src
+│
+├── app
+│   ├── api
+│   ├── components
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── lib
+│
+└── public
+```
+
+---
+
+# Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/hrithikksham/hellonova.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+```env
+RESEND_API_KEY=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+OPENAI_API_KEY=
 
-## Deploy on Vercel
+DEEPGRAM_API_KEY=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+DATABASE_URL=
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+REDIS_URL=
+```
+
+---
+
+# Roadmap
+
+- [x] Landing Page
+- [x] Waitlist
+- [x] Email Automation
+- [ ] Incoming AI Calls
+- [ ] Live Call Summary
+- [ ] Memory Engine
+- [ ] AI Context Builder
+- [ ] Mobile App
+- [ ] Calendar Integration
+- [ ] Email Integration
+- [ ] WhatsApp Assistant
+
+---
+
+# Design Principles
+
+- Minimal
+- Human-first
+- AI-native
+- Privacy-first
+- Fast
+- Premium
+
+---
+
+# Contributing
+
+Contributions, ideas and feedback are always welcome.
+
+If you'd like to help shape helloNova, feel free to open an issue or submit a pull request.
+
+---
+
+# Built by
+
+### HUDO
+
+Building the future of AI communication.
+
+https://hudo.co.in
+
+---
+
+<div align="center">
+
+### Less interruption.
+
+### More focus.
+
+## helloNova
+
+</div>
