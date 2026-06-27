@@ -206,33 +206,6 @@ REDIS_URL=
 
 ---
 
-# Roadmap
-
-- [x] Landing Page
-- [x] Waitlist
-- [x] Email Automation
-- [ ] Incoming AI Calls
-- [ ] Live Call Summary
-- [ ] Memory Engine
-- [ ] AI Context Builder
-- [ ] Mobile App
-- [ ] Calendar Integration
-- [ ] Email Integration
-- [ ] WhatsApp Assistant
-
----
-
-# Design Principles
-
-- Minimal
-- Human-first
-- AI-native
-- Privacy-first
-- Fast
-- Premium
-
----
-
 # Contributing
 
 Contributions, ideas and feedback are always welcome.
