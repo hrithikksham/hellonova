@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/images/image.png" width="120" alt="helloNova"/>
+<img src="./public/images/icon.png" width="120" alt="helloNova"/>
 
 # helloNova
 
@@ -26,16 +26,6 @@ Never miss what matters.
 helloNova is an AI-powered phone assistant that answers incoming calls on your behalf, understands conversations in real time, filters spam, summarizes important discussions, and remembers what matters.
 
 Instead of interrupting your day, helloNova decides whether a call deserves your attention.
-
----
-
-## Preview
-
-<p align="center">
-<img src="./public/images/image.png" width="900"/>
-</p>
-
----
 
 # Why helloNova?
 
