@@ -74,7 +74,7 @@ WELCOME
 <div style="text-align:center;">
 
 <img
-src="https://hudo.co.in/icon.png"
+src="https://hudo.co.in/images/image.png"
 alt="helloNova"
 width="280"
 style="
